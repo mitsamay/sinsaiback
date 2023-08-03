@@ -35,7 +35,7 @@ router.post("/create-user", async (req, res, next) => {
 
     const activationToken = createActivationToken(user);
 
-    const activationUrl = `https://sinsaifront.vercel.app/activation/${activationToken}`;
+    const activationUrl = `https://sinsaiback.onrender.com/activation/${activationToken}`;
 
     try {
       await sendMail({

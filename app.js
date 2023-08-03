@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: ['https://sinsaifront.vercel.app',],
+  origin: ['https://sinsaiback.onrender.com',],
   credentials: true
 }));
 
